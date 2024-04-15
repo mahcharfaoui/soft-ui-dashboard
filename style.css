@@ -1,0 +1,44 @@
+/* Styles for the form container */
+.row.block-9 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-md-6 {
+    width: 48%; /* Adjust width as needed */
+    margin-bottom: 20px;
+}
+
+/* Styles for the form elements */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Optional: Adjust form responsiveness */
+@media (max-width: 768px) {
+    .col-md-6 {
+        width: 100%;
+    }
+}
